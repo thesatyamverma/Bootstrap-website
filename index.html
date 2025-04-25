@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Components</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <style>
+      .feature-icon {
+        width :4rem;
+        height : 4rem;
+        border-radius: 0.75em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./logo.png" height="20" /> DjGraphy</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Book For a Event</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">View our work</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Booking Price"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">Check</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold">Dj Graphy Studio</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Celebrate your special moments with elegance and perfection at our
+          premier marriage and event booking studio. Whether it is a grand
+          wedding, intimate engagement, or a milestone celebration, we turn your
+          vision into reality. With stunning décor, seamless planning, and
+          top-tier service, we create unforgettable memories tailored just for
+          you. Book now and make your event truly extraordinary.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Get a quote
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Contact US
+          </button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 70vh">
+        <div class="container px-5">
+          <img
+            src="./pp2.png"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">All-Inclusive Premium Wedding Package</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img src="./briefcase.svg" alt="briefcase" height="30">
+              </svg>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Traditional Photography</h3>
+            <p>
+              Capture your wedding day with the timeless charm of traditional
+              photography. Our expert photographers ensure every ritual, smile,
+              and candid moment is preserved with grace and detail. Ideal for
+              those who love classic, posed shots with cultural richness.
+            </p>
+            <a href="#" class="icon-link">
+              60,000 * Get a quote 
+              <img src="./chevron-right.svg" height="20">
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+            <img src="./chat-square-heart.svg" alt="briefcase" height="30" >
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Cinematic Wedding Film</h3>
+            <p>
+              Experience your love story like a movie with our cinematic wedding
+              package. Using high-end equipment and creative storytelling, we
+              craft visually stunning wedding films that highlight emotions,
+              music, and magical moments. Perfect for couples wanting a
+              dramatic, unforgettable memory.
+            </p>
+            <a href="#" class="icon-link">
+              80,000  Get a quote 
+              <img src="./chevron-right.svg" height="20">
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+            <img src="./bus-front.svg" alt="briefcase" height="30">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">
+              Traditional + Cinematic Combo
+            </h3>
+            <p>
+              Get the best of both worlds with our combo package—traditional
+              photography for those beautiful portraits and rituals, and
+              cinematic video to relive the entire day as a film. A perfect
+              blend for complete coverage of your celebration.
+            </p>
+            <a href="#" class="icon-link">
+              1,20,000   Get a quote 
+              <img src="./chevron-right.svg" height="20">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./SS1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ss2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ss4.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
+        <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2025 djgraphystudio, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
